@@ -1,0 +1,14 @@
+{
+  "name": "firebase_courso",
+  "version": "1.0.0",
+  "description": "first use of Google's firebase (serverless computing) with MIT",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebisteri@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.1.0"
+  }
+}
