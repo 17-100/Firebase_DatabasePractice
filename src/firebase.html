@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src= "https://www.gstatic.com/firebasejs/7.24.0/firebase-storage.js"></script>
+    
+</head>
+
+<body>
+    <!-- UI elements for database crud -->
+    <h3>firebase.database exercise</h3>
+    <input id="message" type="text" placeholder="Text to write to DB"><br><br>
+    <button id="write">Write</button>
+    <button id="read">Read</button>
+    <div id="statusDB"></div>
+    
+
+    <!-- UI elements for storage -->
+    <br><br>
+    <h3>firebase.storage exercise</h3>
+    <input type="file" id="file" name="file" multiple><br><br>
+    <input type="submit" id="upload">
+    <input type="submit" id="download" value="Download"><br><br>
+    <div id="statusStorage"></div><br><br>
+    <img src="" id="image" width="200px">
+    
+    <!-- referencing js files -->
+    <script src="firebase.js"></script>
+</body>
+
+
+
+</html>
